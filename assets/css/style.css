@@ -9,6 +9,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+/*Hero image*/
+#hero {
+    background-image: url('../images/hero.webp');
+    min-height: 500px;
+    padding: 5% 7%;
+    background-position: 50% 70%;
+    background-color: lightgrey;
+    background-size: cover;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #a4c2d1; /* egg blue*/
@@ -31,17 +41,22 @@ h1, h2 {
     background-color: #dbdcde; /*light grey*/
 }
 
+#portfolio .card-title {
+    color: #1f7798; /*mid-blue*/
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+
 /*Contact section*/
 
 #contact {
     background-color: white;
 }
 
-#hero {
-    background-image: url('../images/hero.webp');
-    min-height: 500px;
-    padding: 5% 7%;
-    background-position: 50% 70%;
-    background-color: lightgrey;
-    background-size: cover;
+/* '*' Wildcard selects all element the have a parent with the sharp-corners class */
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
 }
