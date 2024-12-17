@@ -60,3 +60,17 @@ h1, h2 {
 .sharp-corners, .sharp-corners * {
     border-radius: 0;
 }
+
+.buttoncolor {
+    background-color: #1f7798;
+    border: #1f7798;
+}
+
+.buttoncolor:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
+
+#contact form {
+    color: #1d6d8a;
+}
